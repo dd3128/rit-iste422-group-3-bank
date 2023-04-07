@@ -8,7 +8,7 @@ public class EdgeConvertFileParserTest {
 
     @Before
     public void setUp() throws Exception {
-        testObj = new EdgeConvertFileParser();
+        testObj = new EdgeConvertFileParser(null);
     }
 
     @Test
